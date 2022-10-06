@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".src.main.myPage.signup.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp">
+
+
+        <ImageView
+            android:id="@+id/login_btn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/signupclose"
+            android:padding="5dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="@string/signup_text_number"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:src="@drawable/signupad"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:hintTextAppearance="@style/TextLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:paddingTop="15dp"
+            app:boxCollapsedPaddingTop="-15dp"
+            app:boxBackgroundColor="#D3D3D3"
+            app:hintTextColor="#A9A9A9"
+            app:boxStrokeColor="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:inputType="textEmailAddress"
+                android:id="@+id/signup_edt_id"
+                android:layout_width="match_parent"
+                android:paddingTop="0dp"
+                android:paddingStart="0dp"
+                android:layout_height="wrap_content"
+                android:background="#00ff0000"
+                android:textCursorDrawable="@drawable/cursor_drawable"
+                android:textSize="13sp"
+                android:hint="@string/signup_edt_id"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:errorTextColor="@color/black"
+            app:errorIconTint="@color/black"
+            app:boxStrokeErrorColor="@color/black"
+            app:errorTextAppearance="@style/ErrorTextAppearance"
+            app:errorIconDrawable="@android:color/transparent"
+            app:boxBackgroundColor="#D3D3D3"
+            app:hintTextColor="#A9A9A9"
+            app:boxStrokeColor="@color/black"
+            android:visibility="invisible"
+            app:errorEnabled="true"
+            android:id="@+id/signup_edt_pw"
+            app:hintTextAppearance="@style/TextLabel"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            app:boxCollapsedPaddingTop="-15dp"
+            app:passwordToggleEnabled="false">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/signup_edt_pw2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00ff0000"
+                android:paddingTop="0dp"
+                android:paddingStart="0dp"
+                android:textSize="13sp"
+                android:textCursorDrawable="@drawable/cursor_drawable"
+                android:inputType="textPassword"
+                android:hint="@string/signup_edt_pw" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/signup_edt_pw_confirm"
+            android:visibility="invisible"
+            app:hintTextAppearance="@style/TextLabel"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            app:boxCollapsedPaddingTop="-15dp"
+            app:boxBackgroundColor="#D3D3D3"
+            app:hintTextColor="#A9A9A9"
+            app:boxStrokeColor="@color/black"
+            app:passwordToggleEnabled="false">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/signup_edt_pw_confirm2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00ff0000"
+                android:paddingTop="0dp"
+                android:paddingStart="0dp"
+                android:textSize="13sp"
+                android:textCursorDrawable="@drawable/cursor_drawable"
+                android:inputType="textPassword"
+                android:hint="@string/signup_edt_pw_confirm"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/singup_second_bottom"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/signup_btn_next"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:background="@drawable/btn_next_gray"
+                android:textColor="#A1A1A1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:text="@string/signup_btn_next">
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:visibility="invisible"
+                android:id="@+id/signup_btn_next_pink"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:background="@drawable/btn_next_pink"
+                android:textColor="@color/btnpink"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:text="@string/signup_btn_next">
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:visibility="invisible"
+                android:id="@+id/signup_btn_confirm"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:background="@drawable/btn_next_gray"
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:text="@string/signup_btn_confirm">
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:visibility="invisible"
+                android:id="@+id/signup_btn_confirm_pink"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:background="@drawable/btn_confirm_pink"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textStyle="bold"
+                android:text="@string/signup_btn_confirm">
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </FrameLayout>
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

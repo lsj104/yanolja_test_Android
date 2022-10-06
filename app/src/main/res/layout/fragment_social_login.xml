@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".src.main.myPage.SocialLoginFragment"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:visibility="gone"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/loginnotice">
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#f3f3f3"
+        android:orientation="vertical"
+        android:background="@drawable/logintheme">
+
+        <TextView
+            android:id="@+id/social_text_notice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="11sp"
+            android:text="간편 로그인을 위해서는 야놀자 회원가입 후, \nMY야놀자 > 설정에서 계정연동이 필요합니다."/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:background="@drawable/logintheme">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_height="30dp"
+                android:src="@drawable/loginphone"
+                android:padding="3dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/social_text_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/social_text_mobile"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:background="@drawable/logintheme">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_height="30dp"
+                android:src="@drawable/loginkakao"
+                android:padding="3dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/social_text_kakao"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/social_text_kakao"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:background="@drawable/logintheme">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_height="30dp"
+                android:src="@drawable/loginnaver"
+                android:padding="5dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/social_text_naver"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textColor="#43c92e"
+                android:textSize="13sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/social_text_naver"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:background="@drawable/logintheme">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_height="30dp"
+                android:src="@drawable/loginpayco"
+                android:padding="5dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/social_text_payco"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textColor="#f81914"
+                android:textSize="13sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/social_text_payco"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

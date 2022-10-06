@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="170dp"
+        android:layout_height="270dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/do_ry_cardview"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/domestic_ry_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/do_ry_text"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        app:layout_constraintTop_toBottomOf="@id/do_ry_cardview"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="대부도 예그리나펜션"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"/>
+
+    <RatingBar
+        android:id="@+id/rc_rating"
+        android:isIndicator="false"
+        style="?android:attr/ratingBarStyleSmall"
+        android:stepSize="0.5"
+        android:numStars="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/do_ry_text"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/rc_rating_score"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        app:layout_constraintStart_toEndOf="@id/rc_rating"
+        app:layout_constraintTop_toBottomOf="@id/do_ry_text"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="3dp"
+        android:text="4.4"
+        android:textSize="11sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/do_ry_review"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        app:layout_constraintTop_toBottomOf="@id/do_ry_text"
+        app:layout_constraintStart_toEndOf="@id/rc_rating_score"
+        android:text="(345)"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:layout_marginEnd="10dp"
+            android:id="@+id/ry_one"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="1박 기준"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/do_ry_review"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/ry_kor"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/ry_one"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="원"
+            android:textColor="@color/black"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/ry_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/ry_one"
+            app:layout_constraintEnd_toStartOf="@id/ry_kor"
+            android:text="120,000"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

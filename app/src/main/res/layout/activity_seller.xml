@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".src.main.search.hotelroom.SellerActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/login_linear"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/login_btn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/signupclose"
+            android:padding="5dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="판매자 정보"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <View
+            android:layout_width="match_parent"
+
+            android:layout_height="3px"
+            android:visibility="visible"
+            android:background="#f2f2f2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_height="3px"
+            android:visibility="visible"
+            android:background="#f2f2f2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/seller_name"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:background="#f3f3f3"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="대표자명"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/seller_name_1"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:padding="10dp"
+                android:text="대표자명"
+                android:gravity="center_vertical"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <View
+            android:layout_width="match_parent"
+
+            android:layout_height="3px"
+            android:visibility="visible"
+            android:background="#f2f2f2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_height="3px"
+            android:visibility="visible"
+            android:background="#f2f2f2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/seller_product_name"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:padding="10dp"
+                android:text="상호명"
+                android:gravity="center_vertical"
+                android:background="#f3f3f3"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/seller_product_name1"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:padding="10dp"
+                android:text="대표자명"
+                android:gravity="center_vertical"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <View
+            android:layout_width="match_parent"
+
+            android:layout_height="3px"
+            android:visibility="visible"
+            android:background="#f2f2f2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="60dp"
+            android:layout_height="3px"
+            android:visibility="visible"
+            android:background="#f2f2f2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/seller_adress"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:padding="10dp"
+                android:text="사업자주소"
+                android:gravity="center_vertical"
+                android:background="#f3f3f3"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/seller_adress1"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:padding="10dp"
+                android:text="대표자명"
+                android:gravity="center_vertical"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <View
+            android:layout_width="match_parent"
+
+            android:layout_height="3px"
+            android:visibility="visible"
+            android:background="#f2f2f2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="60dp"
+            android:layout_height="3px"
+            android:visibility="visible"
+            android:background="#f2f2f2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/seller_email"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:padding="10dp"
+                android:text="전자우편주소"
+                android:gravity="center_vertical"
+                android:background="#f3f3f3"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/seller_email1"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:padding="10dp"
+                android:text="대표자명"
+                android:gravity="center_vertical"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <View
+            android:layout_width="match_parent"
+
+            android:layout_height="3px"
+            android:visibility="visible"
+            android:background="#f2f2f2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_height="3px"
+            android:visibility="visible"
+            android:background="#f2f2f2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/seller_phone"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:padding="10dp"
+                android:text="연락처"
+                android:gravity="center_vertical"
+                android:background="#f3f3f3"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/celler_phone1"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:padding="10dp"
+                android:text="대표자명"
+                android:gravity="center_vertical"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <View
+            android:layout_width="match_parent"
+
+            android:layout_height="3px"
+            android:visibility="visible"
+            android:background="#f2f2f2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_height="3px"
+            android:visibility="visible"
+            android:background="#f2f2f2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/seller_id"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:padding="10dp"
+                android:text="사업자등록번호"
+                android:gravity="center_vertical"
+                android:background="#f3f3f3"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/seller_id1"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:padding="10dp"
+                android:text="대표자명"
+                android:gravity="center_vertical"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

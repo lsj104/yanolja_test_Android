@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name">RisingTest</string>
+
+    <!-- Main -->
+    <string name="main_btm_nav_home_title">홈</string>
+    <string name="main_btm_nav_location_title">지역</string>
+    <string name="main_btm_nav_nearbyme_title">내주변</string>
+    <string name="main_btm_nav_save_title">찜</string>
+    <string name="main_btm_nav_my_page_title">MY 야놀자</string>
+
+    <!-- MyPage -->
+    <string name="my_text_ya">MY 야놀자</string>
+    <string name="my_text_signup">가입하고, 초특가 혜택 받자!</string>
+    <string name="my_text_point">포인트</string>
+    <string name="my_text_coin">야놀자 코인</string>
+    <string name="my_text_coupon">쿠폰함</string>
+    <string name="my_text_review">나의 후기</string>
+    <string name="my_text_save">찜</string>
+    <string name="my_text_unsign">비회원 예약 내역</string>
+    <string name="my_text_domestic_all">국내여행 통합예약 (6/9 이후 예약)</string>
+    <string name="my_text_domestic_hotel">국내 숙소 (6/9 이전 예약)</string>
+    <string name="my_text_domestic_mobile">국내 레저/모바일교환권 (6/9 이전 예약)</string>
+    <string name="my_text_domestic_ktx">KTX (6/9 이전 예약)</string>
+    <string name="my_text_domestic_food">맛집</string>
+    <string name="my_text_abroad_all">해외 예약 내역</string>
+    <string name="my_text_abroad_insurance">해외 여행자 보험</string>
+    <string name="my_text_event">이벤트</string>
+    <string name="my_text_sale">기획전</string>
+    <string name="my_text_research">리서치 참여</string>
+    <string name="my_text_draw">당첨자 발표</string>
+    <string name="my_text_trust">믿고 쓰는 야놀자!</string>
+    <string name="my_text_service">고객센터</string>
+    <string name="my_text_service_if">365일 오전9시 ~ 익일 오전3시 운영</string>
+    <string name="my_text_service_kakao">카카오톡 1:1 문의</string>
+    <string name="my_text_service_call">상담원 연결</string>
+    <string name="my_text_faq">자주 묻는 질문 FAQ</string>
+    <string name="my_text_notice">공지사항</string>
+    <string name="my_text_information">야놀자 정보</string>
+    <string name="my_text_setting">설정</string>
+    <string name="my_text_nickname">홀가분내일0011</string>
+    <string name="my_text_account">내정보 관리</string>
+    <string name="my_text_coin2">계정연동 후 사용하세요</string>
+
+    <!-- Social Login -->
+    <string name="social_text_kakao">카카오 로그인          </string>
+    <string name="social_text_mobile">휴대폰 번호로 로그인          </string>
+    <string name="social_text_naver">네이버 로그인          </string>
+    <string name="social_text_payco">PAYCO 로그인          </string>
+
+    <!-- Login -->
+    <string name="login_edt_id">아이디 또는 이메일</string>
+    <string name="login_edt_pw">비밀번호</string>
+
+    <!-- Signup -->
+    <string name="signup_btn_next">다음</string>
+    <string name="signup_text_number">회원가입 (1/2)</string>
+    <string name="signup_edt_id">이메일</string>
+    <string name="signup_edt_pw">비밀번호</string>
+    <string name="signup_edt_pw_confirm">비밀번호 확인</string>
+    <string name="signup_btn_confirm">확인</string>
+    <string name="signup_dralog_text">약관 동의</string>
+    <string name="signup_dialog_text_agree1">전체 동의</string>
+    <string name="signup_dialog_text_agree2">(선택 포함)</string>
+    <string name="signup_dialog_text_agree3"><u>위치 정보 이용 약관 동의</u></string>
+    <string name="signup_dialog_text_optional">(선택)</string>
+    <string name="signup_dialog_text_agree4"><u>개인정보 수집 및 이용 동의</u></string>
+    <string name="signup_dialog_text_agree5">장기 미접속 시에도 계정 유지</string>
+    <string name="signup_dialog_text_agree6">※미동의 시 1년 미접속 회원 탈퇴 전환</string>
+    <string name="dialog_text_1_1">만 14세이상 이용, 서비스 이용약관, 개인정보</string>
+    <string name="dialog_text_1_2">수집 및 이용동의</string>
+    <string name="dialog_text_1_3">(필수)</string>
+    <string name="signup_second_text1">휴대폰 번호</string>
+    <string name="sign_up_second_btn_text">인증번호 전송</string>
+    <string name="signup_edt_msg">인증번호 6자리</string>
+    <string name="signup_btn_complete">회원가입 완료</string>
+    <string name="signup_btn_next_count">인증번호 재전송 (남은 횟수 4회)</string>
+    <string name="signup_text_number2">회원가입 (2/2)</string>
+
+    <!-- Main -->
+    <string name="Tab1">추천</string>
+    <string name="Tab2">국내숙소</string>
+    <string name="Tab3">즐길거리</string>
+    <string name="Tab4">교통/항공</string>
+    <string name="Tab5">해외여행</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Recommend -->
+    <string name="newandhot">NEW &amp; HOT</string>
+    <string name="rc_bus_text">고속버스</string>
+    <string name="rc_pool_text">풀빌라</string>
+    <string name="rc_swin_text">물놀이특가</string>
+    <string name="rc_kid_text">아이야놀자</string>
+    <string name="rc_hotel_text">호캉스패키지</string>
+    <string name="rc_food_text">맛집</string>
+    <string name="rc_money_text">돈버는놀테크</string>
+    <string name="rc_coin_text">코인뽑기머신</string>
+    <string name="rc_coupon_text">나만의쿠폰</string>
+    <string name="rc_card_text">카드할인</string>
+    <string name="rc_aug_text">8월혜택모음</string>
+    <string name="rc_line_text">선착순쿠폰</string>
+    <string name="rc_infi_text">무한쿠폰룸</string>
+    <string name="rc_mo_text">모텔특가</string>
+    <string name="rc_ho_text">호텔특가</string>
+    <string name="rc_pan_text">펜션특가</string>
+    <string name="rc_today">오늘의 특가</string>
+    <string name="rc_now">지금 여행가기 좋은 지역</string>
+    <string name="rc_jeju">제주도</string>
+    <string name="rc_kangowon">강원도</string>
+    <string name="rc_busan">부산</string>
+    <string name="rc_gyeonju">경상북도</string>
+    <string name="rc_weekly">위클리 인기 Top</string>
+    <string name="rc_weekly_bottom">지난주 구매 기반 인기 많은 순</string>
+    <string name="rc_weekly_all">전체보기</string>
+    <string name="rc_tab1">모바일교환권</string>
+    <string name="rc_tab2">펜션</string>
+    <string name="rc_tab3">호텔</string>
+    <string name="rc_tab4">레저/티켓</string>
+    <string name="rc_tab5">모텔</string>
+    <string name="rc_tab6">게스트하우스</string>
+    <string name="rc_mobile_price">원</string>
+    <string name="rc_mobile1">[맥도날드] 초코 선데이 아이스크림</string>
+    <string name="rc_mobile1_price">1,500</string>
+    <string name="rc_mobile2">[스타벅스][블론드] 아이스 스타벅스 돌체 라떼</string>
+    <string name="rc_mobile2_price">5,600</string>
+    <string name="rc_mobile3">[베스킨라빈스] 패밀리 아이스크림</string>
+    <string name="rc_mobile3_price">22,000</string>
+    <string name="rc_today_top">오늘의 인기 매거진</string>
+    <string name="rc_ques">찾고 계신 상품이 있나요?</string>
+    <string name="rc_domestic">국내숙소</string>
+    <string name="rc_domestic1">호텔 / 프리미엄호텔 / 모텔 / 펜션 / 풀빌라 / 게스트하우스</string>
+    <string name="rc_fun">즐길거리</string>
+    <string name="rc_fun1">워터파크 / 수상레저 / 모바일교환권 / 맛집 / 아이야놀자</string>
+    <string name="rc_trans">교통/항공</string>
+    <string name="rc_trans1">KTX / 렌터카 / 고속버스 / 국내 항공권 / 해외 항공권</string>
+    <string name="rc_abroad">해외여행</string>
+    <string name="rc_abroad1">해외숙소 / 해외 항공권 / 해외 여행자보험</string>
+
+    <!-- Domestic -->
+    <string name="do_motel">모텔</string>
+    <string name="do_hotel">호텔</string>
+    <string name="do_premium_hotel">프리미엄호텔</string>
+    <string name="do_pension">펜션</string>
+    <string name="do_resort">리조트</string>
+    <string name="do_poolvilla">풀빌라</string>
+    <string name="do_camping">글램핑/캠핑</string>
+    <string name="do_guest">게하/한옥</string>
+    <string name="do_hotelpackage">호캉스패키지</string>
+    <string name="do_earlybird">얼리버드특가</string>
+    <string name="do_boutiq">부티크브랜드</string>
+    <string name="do_self">셀프체크인</string>
+    <string name="do_motelevent">모텔의재발견</string>
+    <string name="do_swim">수영장숙소</string>
+    <string name="do_theme">테마펜션</string>
+    <string name="do_gb">경상북도</string>
+    <string name="do_jeju">제주도</string>
+    <string name="do_busan">부산</string>
+    <string name="do_kangwon">강원도</string>
+    <string name="do_more">더보기</string>
+    <string name="do_recent">최근 본 상품의 연관상품</string>
+
+
+    <!-- Location -->
+    <string name="location">지역</string>
+    <string name="location_top_tab1">지역별</string>
+    <string name="location_top_tab2">역주변</string>
+    <string name="location_top_tab3">지도 검색</string>
+
+    <!-- Search -->
+    <string name="search_text">검색</string>
+    <string name="search_domestic">국내숙소</string>
+    <string name="search_abroad">해외숙소</string>
+    <string name="search_ticket">레저/티켓</string>
+
+    <!-- Search Domestic -->
+    <string name="search_name">지역, 지하철역, 숙소명으로 찾아보세요</string>
+    <string name="search_date">08.27 ~ 08.28, 1박</string>
+    <string name="search_people">성인 2, 아동 0</string>
+    <string name="search_top">인기 여행지</string>
+    <string name="search_keyword">인기 키워드</string>
+    <string name="search_infi">무한대실</string>
+    <string name="search_motel_event">모텔 할인</string>
+    <string name="search_seoul_hotel">서울 호캉스</string>
+    <string name="search_pool">인기 풀빌라 특가</string>
+    <string name="search_wine">와인칠링백 무료</string>
+    <string name="search_recent">최근 검색</string>
+    <string name="search_delete">전체 삭제</string>
+    <string name="search_recent_nothing">최근 검색한 조건이 없습니다.</string>
+    <string name="search_icon">></string>
+    <string name="search_coupon">쿠폰 할인 가능한 숙소</string>
+
+    <!-- Calendar -->
+    <string name="calendar_select">날짜 선택</string>
+
+
+    <!-- SearchSecond -->
+    <string name="search_tab1">전체</string>
+    <string name="search_tab3">호텔/리조트</string>
+    <string name="search_tab4">펜션/풀빌라</string>
+    <string name="search_num">237</string>
+    <string name="search_text_num">개의 검색결과</string>
+    <string name="search_recommend">야놀자 추천순</string>
+    <string name="search_yanolja">야놀자 검색 추천</string>
+    <string name="search_time">숙박 18:00부터</string>
+
+
+</resources>

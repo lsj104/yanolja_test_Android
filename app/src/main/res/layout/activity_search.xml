@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".src.main.search.SearchActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:id="@+id/login_linear"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/login_btn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/loginback"
+            android:padding="3dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="@string/search_text"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp">
+        <FrameLayout
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="51dp">
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="50dp"
+                android:layout_height="3px"
+                android:visibility="visible"
+                android:background="#f2f2f2" />
+
+        <com.google.android.material.tabs.TabLayout
+            app:tabMode="scrollable"
+            app:tabIndicatorFullWidth="false"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/search_tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:tabTextAppearance="@style/search_tab_text"
+            app:tabTextColor="#A9A9A9"
+            app:tabSelectedTextColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tabIndicatorColor="@color/black">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_domestic" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_abroad" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search_ticket" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@null" />
+
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@null" />
+
+
+        </com.google.android.material.tabs.TabLayout>
+
+        </FrameLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        app:layout_constraintTop_toBottomOf="@id/tabLayout"
+        android:id="@+id/search_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+
+</LinearLayout>
